@@ -35,7 +35,6 @@ body {
 }
 .logocimamenor{
     max-width: 52px;
-    margin-right: 1893px;
 }
 
 #inicio .logo-central {
@@ -54,11 +53,11 @@ header {
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
 }
 
 header nav ul {
     list-style: none;
+    display: flex;
     justify-content: right;
     gap: 15px;
     margin-top: -45px;
@@ -194,45 +193,6 @@ footer {
     margin-top: 20px;
 }
 
-.hidden {
-    display: none;
-}
-
-.icon-menu ul {
-    list-style: none;
-    padding: 10px;
-    background-color: #02eaf8;
-    position: absolute;
-    right: 97px;
-    top: 147px;
-    border-radius: 5px;
-    z-index: 1000;
-    max-width: 1200px;
-    width: 560px;
-}
-
-.icon-menu ul li {
-    margin: 10px 0;
-    text-align: center;
-}
-.icon-menu ul li :hover {
-    color: #333;
-    text-decoration: none;
-}
-
-.icon-menu ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-
-}
-.icon-menu button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-
-}
-
 /* Responsividade */
 @media (max-width: 1024px) {
     header nav ul {
@@ -245,7 +205,7 @@ footer {
 
     #inicio .logo-central {
         width: 300px;
-        margin-top: 200px;
+        margin-top: 113px;
     }
 
     h3 {
@@ -311,7 +271,7 @@ footer {
 @media (max-width: 468px) {
     header {
         padding: 10px;
-        margin-right: -5px;
+        margin-right: -47px;
         position: relative;
     
     }
@@ -379,4 +339,5 @@ footer {
 
 
 }
+
 

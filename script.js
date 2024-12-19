@@ -19,8 +19,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-function toggleMenu() {
-    const menu = document.getElementById('responsive-menu');
-    menu.classList.toggle('hidden');
-}
-
